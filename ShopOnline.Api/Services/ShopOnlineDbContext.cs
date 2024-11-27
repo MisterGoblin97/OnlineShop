@@ -11,6 +11,7 @@ public class ShopOnlineDbContext : DbContext
     
     }
 
+    //Data seeding
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
